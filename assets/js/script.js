@@ -1,12 +1,13 @@
+const btn = document.getElementById("btnModificar")
+const listaItens = document.querySelectorAll("ul li")
+console.log(btn)
+//listaItens.forEach(element => {
+//    console.log(element)
+//})
 
-
-function odd_or_even() {
-    var valor = document.getElementById("numero").value;
-
-    if (valor % 2 == 0){
-        document.write(valor + " is even");
-    }else{
-        document.write(valor + " is odd");
-    }
-
-}
+//btnModificar.addEventListener("click", ()=>{
+  //  listaItens.forEach((element) => {
+    //    element.innerText = "epaaaaaa"
+    //})
+    
+//})
